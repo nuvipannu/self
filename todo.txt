@@ -1,0 +1,11 @@
+<!-- TODO -->
+
+<!-- Sidebar (scrollable) Moment management-->
+
+<!-- Content (scrollable) Moments rendering (cards in a timeline) -->
+
+<!-- Extend react moment card -->
+
+<!-- Extend moment card with thumbnails, icons, title, range date (?) || date, description, caption, created_at date, y axis tick -->
+
+<!-- y Axis --->
