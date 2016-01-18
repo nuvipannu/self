@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  background: #eee;
+}
+
+.template-sidebar,
+.template-content {
+  height: 100%;
+}
+
+.template-sidebar {
+  background: #fff;
+  width: 300px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+.template-content {
+  padding: 20px 20px 20px 500px;
+}
+
+.moment-list {
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}
+
+.ui {
+  &.items {
+    .moment {
+      padding: 20px;
+      background: #fff;
+      position: relative;
+
+      .y-tick {
+        position: absolute;
+        left: -195px;
+        top: 50%;
+        margin-top: -11px;
+        width: 160px;
+        text-align: right;
+
+        i {
+          width: 8px;
+          height: 1px;
+          display: inline-block;
+          background: #000;
+          position: absolute;
+          top: 11px;
+          right: -14px;
+        }
+
+      }
+    }
+  }
+}
